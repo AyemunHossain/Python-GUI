@@ -1,5 +1,5 @@
 #;==========================================
-#; Title:  Change button property
+#; Title:  Change buttons properties
 #; Author: @AyemunHossain
 #;==========================================
 
