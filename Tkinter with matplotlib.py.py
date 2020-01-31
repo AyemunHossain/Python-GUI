@@ -9,8 +9,8 @@ from matplotlib import style
 
 style.use('ggplot')
 
-f = Figure(figsize=(5, 5), dpi=100)
-a = f.add_subplot(111)
+fig = Figure(figsize=(5, 5), dpi=100)
+ax = fig.add_subplot(111)
 
 def animate(i):
     data = open("e1.txt","r").read()
@@ -25,10 +25,10 @@ def animate(i):
         except:
             pass
 
-    a.clear()
-    a.plot(x,y)
-    a.set_xlabel("X Labels")
-    a.set_ylabel("Y Labels")
+    ax.clear()
+    ax.plot(x,y)
+    ax.set_xlabel("X Labels")
+    ax.set_ylabel("Y Labels")
 
 
 class Major(tk.Tk):
@@ -36,8 +36,7 @@ class Major(tk.Tk):
     def __init__(self,*args,**kwargs):
         tk.Tk.__init__(self,*args,**kwargs)
         tk.Tk.geometry(self, '800x600')
-        tk.Tk.title(self,"Bitcoin Exchange")
-        tk.Tk.iconbitmap(self,"picandicon//bitcoin.ico")
+
 
         containter = tk.Frame(self)
         containter.pack(side="top",fill="both",expand=True)
