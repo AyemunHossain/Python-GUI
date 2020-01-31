@@ -3,13 +3,13 @@
 #; Author: @AyemunHossain
 #;==========================================
 
-import tkinter as tk
-from PIL import Image, ImageTk
-root = tk.Tk()
-root.title("Image")
-root.geometry('600x800')
 
-image1 = ImageTk.PhotoImage(Image.open('picture.jpg'))
-label = tk.Label(root, image=image1).pack()
+
+from tkinter import *
+root= Tk()
+
+image1 = PhotoImage(file="logo.png")        #By tkinter PhotoImage module you can workwith .png only
+
+label = Label(root,image=image1,width=400,height=400,bg="#a7d6dc").pack()
 
 root.mainloop()
