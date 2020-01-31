@@ -136,11 +136,11 @@ class GraphPage(tk.Frame):
         button3 = tk.Button(self, text="Page Two", width=10, bg='brown',
                             fg='white', command=lambda: parent_class.show_frames(PageTwo))
         button3.pack()
-        canvas = FigureCanvasTkAgg(f,self)
+        canvas = FigureCanvasTkAgg(fig,self)
         canvas.draw()
         canvas.get_tk_widget().pack(side=tk.TOP,fill = tk.BOTH,expand= True)
 
 
 app=Major()
-ani = animation.FuncAnimation(f,animate)
+ani = animation.FuncAnimation(fig,animate)
 app.mainloop()
