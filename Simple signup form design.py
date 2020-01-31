@@ -1,5 +1,5 @@
 
-def newdef():
+def register():
     print("Successfully Registered")
 
 
@@ -38,7 +38,7 @@ entry5.grid(row=4,column=1)
 check=Checkbutton(frame,text="I Agreed with all teams and condition",)
 check.grid(row=5,columnspan=2)
 
-button1=Button(frame,text="Sign up",bg="green",command=newdef)
+button1=Button(frame,text="Sign up",bg="green",command=register)
 button1.grid(column=10)
 
 root.mainloop()
