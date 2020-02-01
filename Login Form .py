@@ -1,9 +1,7 @@
-
 #;==========================================
 #; Title:  Login form in tkinter
 #; Author: @AyemunHossain
 #;==========================================
-
 
 import tkinter as tk
 
