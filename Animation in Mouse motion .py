@@ -1,3 +1,9 @@
+#;====================================================
+#; Title:  Animation in Mouse Motion
+#; Author: @AyemunHossain
+#;====================================================
+
+
 import tkinter as tk
 root = tk.Tk()
 
