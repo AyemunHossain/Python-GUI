@@ -32,11 +32,9 @@ def pan():
 
     label3= tk.Label(pan2,text="We all loves to walking on beach \nAnd enjoy the sunset")
     pan2.add(label3)
-    label3.grid_propagate(0)
 
     label4 = tk.Label(pan2, text="We all hates to waiting on Airports \nAnd watching freking people")
     pan2.add(label4)
-    label4.grid_propagate(0)
 
 root = tk.Tk()
 pan()
