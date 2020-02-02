@@ -1,5 +1,5 @@
 #;==========================================
-#; Title:  Tkinter PanedWindow [all].py
+#; Title:  Tkinter PanedWindow [all 2].py
 #; Author: @AyemunHossain
 #;==========================================
 
