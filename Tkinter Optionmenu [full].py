@@ -7,8 +7,6 @@ import tkinter as tk
 from tkinter import  messagebox
 root = tk.Tk()
 
-
-
 frame1 = tk.Frame(root)
 frame1.pack(expand=tk.TRUE)
 
